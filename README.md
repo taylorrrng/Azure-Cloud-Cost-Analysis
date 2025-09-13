@@ -87,4 +87,5 @@ Sample:
 
 [View dashboard pdf](Tableau_Dashboard.pdf)
 
+![Dashboard Preview](https://github.com/your-username/your-repo/blob/main/images/dashboard1.png?raw=true)
 
