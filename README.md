@@ -119,8 +119,7 @@ Sample:
 - The top spenders in 2023 were Storage (~$1,154) and Bandwidth (~$1,022).
 In 2024, those dropped to ~$556 and ~$528, respectively.
 
-- That’s roughly a 52% drop for Storage and 48% drop for Bandwidth year-over-year
-(not 94–108% — impossible to drop by more than 100% 😅).
+- That’s roughly a 52% drop for Storage and 48% drop for Bandwidth year-over-year.
 
 TL;DR: Storage carries the biggest dollars across the whole period.
 
