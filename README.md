@@ -157,6 +157,9 @@ How each visual helps (in one line)
 
 A forecast visualization was generated with the assistance of ChatGPT, using a regression model on the Azure cost data:
 
+<img width="2017" height="1097" alt="output" src="https://github.com/user-attachments/assets/97d609cb-ad00-40fa-acb9-8e8f10d25a20" />
+
+
 - Light pink line with dots → actual monthly costs (2023–2024)
 
 - Hot pink line → regression-based predictions for 2025 and 2026
