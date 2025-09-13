@@ -82,3 +82,6 @@ Sample:
 | 2023-12-01 | 312.31       |
 | 2024-01-01 | 312.43       |
 | 2024-02-01 | 308.93       |
+
+**Tableau Dashboard**
+[View dashboard pdf](Tableau Dashboard.pdf)
