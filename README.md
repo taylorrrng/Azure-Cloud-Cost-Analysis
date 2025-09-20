@@ -26,7 +26,7 @@ SELECT UsageDate FROM cost_analysis
 LIMIT 10;
 ```
 **2. Drop unnecesary columns**
-```
+```sql
 -- Drop redundant columns
 ALTER TABLE cost_analysis DROP COLUMN Cost;
 ALTER TABLE cost_analysis DROP COLUMN Currency;
@@ -49,7 +49,7 @@ Sample:
 | 2023-06-01 | Logic Apps              | 0.0031706504  |
 
 **3. Ensure ServiceName has values**
-```
+```sql
 -- Standardize ServiceName
 UPDATE cost_analysis
 SET ServiceName = TRIM(ServiceName)
@@ -57,7 +57,7 @@ WHERE ServiceName IS NOT NULL;
 ```
 **4. Calculate monthly costs**
 
-```
+```sql
 -- Aggregate costs per month for all services
 DROP VIEW IF EXISTS view_monthly_cost;
 CREATE VIEW IF NOT EXISTS view_monthly_cost AS
